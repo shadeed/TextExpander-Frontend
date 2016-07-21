@@ -183,7 +183,7 @@ Expanded result:
 </div>
 ```
 
-Snipper [Source](http://code.tutsplus.com/articles/textexpander-for-web-developers--net-26402)
+Snippet [Source](http://code.tutsplus.com/articles/textexpander-for-web-developers--net-26402)
 
 
 ## Placeholder Images
