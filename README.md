@@ -6,8 +6,8 @@ Text Expander Snippets for Front-End Developers
 Snippet:
 
 ```html
-<input type="%filltext:name=Type%" id="%filltext:name=ID%" 
-class="%filltext:name=Class%" %fillpart:name=ARIA Required:default=yes%aria-required="true"%fillpartend%>
+<label for="%filltext:name=ID%"></label>%key:enter%
+<input type="%filltext:name=Type%" id="%filltext:name=ID%" class="%filltext:name=Class%" %fillpart:name=ARIA Required:default=yes%aria-required="true"%fillpartend%>
 ```
 
 Attributes:
