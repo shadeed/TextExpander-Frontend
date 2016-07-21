@@ -1,7 +1,7 @@
 # TextExpander-Frontend
 [Text Expander](https://textexpander.com) Snippets for Front-End Developers
 
-Please feel free to contribute and add any snippet you want, also if you see that something should be better, do not hesitate to create a pull request.
+Please feel free to contribute and add any snippet you want, also if you see that something should be better, do not hesitate to create a pull request or an issue.
 
 ## Form Input
 
