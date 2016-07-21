@@ -65,6 +65,24 @@ Snippet:
 Expanded Result:
 No need.
 
+## HTML Fieldset
+
+Snippet:
+
+```html
+<fieldset>
+    <legend>%filltext:name=Legend%</legend>
+</fieldset>
+```
+
+Expanded Result:
+
+```html
+<fieldset>
+    <legend>Title</legend>
+</fieldset>
+```
+
 
 
 
