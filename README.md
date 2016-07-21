@@ -1,6 +1,8 @@
 # TextExpander-Frontend
 [Text Expander](https://textexpander.com) Snippets for Front-End Developers
 
+Please feel free to contribute and add any snippet you want, also if you see that something should be better, do not hesitate to create a pull request.
+
 ## Form Input
 
 Snippet:
@@ -109,7 +111,7 @@ Expanded result:
 }
 ```
 
-## Vertical Spacing Between Elements
+## Vertical Spacing
 
 Snippet:
 
@@ -134,3 +136,67 @@ or
     margin-bottom: 20px;
 }
 ```
+
+## Horizontal Spacing
+
+Snippet:
+
+```css
+.foo {
+    margin-%fillpopup:name=Select margin direction:default=left:right%: %filltext:name=Value%;
+}
+```
+
+Expanded result:
+
+```css
+.foo {
+    margin-right: 20px;
+}
+```
+
+or
+
+```css
+.foo {
+    margin-left: 20px;
+}
+```
+
+## Image `src`
+
+Snippet:
+
+```html
+<div class="image-wrapper">
+  <img src="%clipboard" alt="%filltext:default=image%">
+</div>
+```
+
+Copy image source and then type the abbreviaiton, TextExpander will popup and let you add the `alt` text content.
+
+Expanded result:
+
+```html
+<div class="image-wrapper">
+  <img src="path/to/image" alt="Image">
+</div>
+```
+
+Snipper [Source](http://code.tutsplus.com/articles/textexpander-for-web-developers--net-26402)
+
+
+## Placeholder Images
+
+Snippet:
+
+```html
+<img src="http://placehold.it/%filltext:name=Width:default=100%x%filltext:name=Height:default=100%">
+```
+
+Expanded result:
+
+```html
+<img src="http://placehold.it/100x100">
+```
+
