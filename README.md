@@ -83,6 +83,54 @@ Expanded Result:
 </fieldset>
 ```
 
+## Container
 
+Snippet:
 
+```css
+.foo {
+    max-width: %filltext:name=Max width%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: %filltext:name=Padding%;
+    padding-right: %filltext:name=Padding%;
+}
+```
 
+Expanded result:
+
+```css
+.foo {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em
+}
+```
+
+## Vertical Spacing Between Elements
+
+Snippet:
+
+```css
+.foo {
+    margin-%fillpopup:name=Select margin direction:default=top:bottom%: %filltext:name=Value%;
+}
+```
+
+Expanded result:
+
+```css
+.foo {
+    margin-top: 20px;
+}
+```
+
+or
+
+```css
+.foo {
+    margin-bottom: 20px;
+}
+```
