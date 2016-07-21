@@ -46,10 +46,25 @@ Expanded Result:
 </svg>
 ```
 
-## Markdown html 
-
-While writing here, TextExpander suggested that I should add the HTML wrapping quotes as a snippet.
+## Article Element
 
 Snippet:
 
- 
+```html
+<article>
+  <header>
+        
+  </header>
+
+  <footer>
+        
+  </footer>
+</article>
+```
+
+Expanded Result:
+No need.
+
+
+
+
