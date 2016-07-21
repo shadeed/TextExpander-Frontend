@@ -1,5 +1,5 @@
 # TextExpander-Frontend
-Text Expander Snippets for Front-End Developers
+[Text Expander](https://textexpander.com) Snippets for Front-End Developers
 
 ## Form Input
 
